@@ -1,0 +1,39 @@
+body{
+    background-color: aqua;
+}
+.container{
+   width: 500px;
+   height: 250px;
+   margin: 40px,auto;
+   background-color: black;
+   border-radius: 5px;
+   margin-left: 500px;
+}
+p{
+    color: white;
+    margin: 10px;
+    
+    padding: 20px;
+}
+#result{
+    color: white;
+    margin: 5px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+h1{
+    color:blue;
+    border: 0px solid;
+    text-align: center;
+}
+#btn{
+    margin: 5px;
+    padding :2px;
+}
+.insideContainer{
+    
+    margin:auto ;
+     
+    padding: px;
+}

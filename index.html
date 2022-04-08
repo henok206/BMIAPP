@@ -5,22 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMI CALCULATOR</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
     <h1> BMI CALCULATOR</h1>
-    <p>Height(in cm):
+     <div class="container">
+    
+   
+     <div calss="insideContainer">
+    <p >Height(in cm):
         <input type="text"  id ="height" placeholder="please Enter your height"><br>
         <span id="height_error"></span>
     </p>
    
-    <p>Weight(in kg):
+    <p >Weight(in kg):
         <input type="text" id="weight" placeholder="please Enter your weight"><br><br>
         <span id="weight_error"></span>
     </p>
-    
+
     <button id="btn">calulate</button>
      <p id="result"></p>
+    </div>
+    </div>
     
 </body>
 <script src="bmiApp.js"></script>
